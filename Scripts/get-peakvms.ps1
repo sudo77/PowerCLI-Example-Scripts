@@ -11,7 +11,7 @@ Results will be outputted to OGV and into a timestamped CSV in the current worki
 Dependencies: Nothing special. Assumes vsphere logging has 20 second samples for the last 60 minutes and 5 minute samples in the past 24 hours.
 #>
 
-$clusterfilter = "*"
+$clusterfilter = "c99*"
 
 #Gather basic stuff
 do{
